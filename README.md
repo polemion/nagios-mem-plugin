@@ -1,4 +1,4 @@
-# A plugin for Nagios, for checking process memory limits by name.
+# A Nagios plugin, for checking process memory limits by name.
 
 A Nagios plugin that checks defined memory limits for a selected process, (by name).
 
