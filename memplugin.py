@@ -30,7 +30,7 @@ def pexit(msg, exco):
 
 def argsDef():
     """Argument rules."""
-    argp = ArgumentParser(description='Nagios plugin that checks defined memory limits for a selected'
+    argp = ArgumentParser(description='Nagios plugin that checks for swapping and defined memory limits for a selected'
                                       ' process, by name.\n(by %s, v%s)' % (__author__, __version__))
     argp.add_argument('-p', '--proc', dest='proc', type=str, help='process name to track.')
     argp.add_argument('-w', '--wthres', dest='wthres', type=int, help='warning threshold in MBs.')
