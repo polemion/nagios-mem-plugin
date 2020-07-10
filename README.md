@@ -1,6 +1,6 @@
-# A Nagios plugin, for checking process memory limits.
+# A Nagios plugin, for checking process memory limits and swapping.
 
-A Nagios plugin that checks defined memory limits for a selected process (by name) ans swapping.
+A Nagios plugin that checks for swapping and defined memory limits for a selected process (by name).
 
 '-p' process name to track.
 
